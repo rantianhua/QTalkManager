@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center"
+    android:padding="10dp" >
+
+   
+    <TextView 
+        android:id="@+id/tv_Qtalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Q话销售"
+        android:typeface="monospace"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_edit_login"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_below="@+id/tv_Qtalk"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" 
+       >
+
+        <EditText
+            android:id="@+id/edit_login_user"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_corner_bguser"
+            android:hint="@string/login_username"
+            android:inputType="none" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000000" />
+
+        <EditText
+            android:id="@+id/edit_login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_corner_bgpass"
+            android:hint="@string/login_password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_edit_login"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_corner_bg"
+            android:text="@string/login_login"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</RelativeLayout>

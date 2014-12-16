@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:state_focused="false" android:state_pressed="false"><shape android:shape="oval">
+            <corners android:radius="360dp" />
+
+            <!-- 文字与边界的距离 -->
+            <padding android:bottom="5dip" android:left="5dip" android:right="5dip" android:top="5dip" />
+
+            <gradient android:angle="270" android:centerColor="#FF9900" android:endColor="#CC9966" android:startColor="#FFCC66"></gradient>
+        </shape></item>
+    <item android:state_enabled="true" android:state_pressed="true"><shape android:shape="oval">
+
+            <!-- 颜色 -->
+            <solid android:color="#808080" />
+
+            <!-- 文字与边界的距离 -->
+            <padding android:bottom="5dip" android:left="5dip" android:right="5dip" android:top="5dip" />
+
+            <gradient android:angle="270" android:centerColor="#FF9900" android:endColor="#CC9966" android:startColor="#FFCC66"></gradient>
+
+            <stroke android:width="2dp" android:color="#FFf8f640" />
+        </shape></item>
+
+</selector>

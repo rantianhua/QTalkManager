@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/libs"/>
+	<classpathentry kind="lib" path="G:/MyTask/QMannager/google-gson-2.2.4-release/google-gson-2.2.4/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="G:/AndroidWorkspace/QTalkManager/libs/badgeview.jar"/>
+	<classpathentry kind="lib" path="G:/AndroidWorkspace/QTalkManager/bin/dexedLibs/badgeview-b19484d80f3484751f7f1f84487a7bd1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/rth"/>
+	<classpathentry kind="lib" path="G:/MyTask/weixinclone/BadgeView-master/BadgeViewDemo/libs/android-support-v4.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

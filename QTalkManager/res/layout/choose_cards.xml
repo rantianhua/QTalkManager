@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:id="@+id/ll_choose_third"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_thirty"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_shape_thirty"
+                android:gravity="center"
+                android:text="@string/third_cards"
+                android:textColor="@color/ivory"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_choose_hundred"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_hundred"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_shape_hundred"
+                android:gravity="center_vertical"
+                android:text="@string/hundred_cards"
+                android:textColor="@color/ivory"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_choose_year"
+            android:layout_width="3dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_year"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_shape_year"
+                android:gravity="center"
+                android:text="@string/year_cards"
+                android:textColor="@color/ivory"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_quit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_shape_quit"
+                android:gravity="center"
+                android:text="@string/quit"
+                android:textColor="@color/ivory"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+</LinearLayout>

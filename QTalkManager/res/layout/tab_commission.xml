@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_commission" />
+    
+    <ProgressBar
+        android:id="@+id/commi_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/frame_loading"
+        android:visibility="gone" />
+
+    <TextView 
+        android:id="@+id/tv_time_commi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:visibility="gone"/>
+    
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_commission_ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+        <ListView
+            android:id="@+id/commission_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    
+    <ProgressBar
+        android:id="@+id/commi_footer_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/frame_loading"
+        android:visibility="gone" />
+
+    <include layout="@layout/buttom_commission" />
+
+</LinearLayout>

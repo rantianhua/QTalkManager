@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Q话销售</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_username">账号：</string>
+    <string name="login_password">密码：</string>
+    <string name="login_login">登  录</string>
+    <string name="third_cards">30元卡</string>
+    <string name="hundred_cards">110元卡</string>
+    <string name="year_cards">365元卡</string>
+    <string name="quit">退    出</string>
+    <string name="cards_number">卡号</string>
+    <string name="cards_money">面值</string>
+    <string name="cards_status">状态</string>
+    <string name="cards_operation">操作</string>
+    <string name="top_zhangqi">账期</string>
+    <string name="real_money">实际金额</string>
+    <string name="commssion_money">提成金额</string>
+    <string name="waitsell">待售</string>
+    <string name="selled">已售</string>
+    <string name="customer">客户</string>
+    <string name="record">记录</string>
+    <string name="commission">提成</string>
+    <string name="sumNumber">总计：</string>
+	<string name="sumNumberCommission">总计提成金额：</string>
+	
+	<string name="sure">确认</string>
+	<string name="cancel">取消</string>
+	<string name="hint_autoText">输入卡号后三位快速查询</string>
+</resources>
